@@ -2,6 +2,7 @@
 require File.expand_path('../lib/phantomjs/version', __FILE__)
 
 Gem::Specification.new do |gem|
+  gem.platform      = Gem::Platform::RUBY
   gem.authors       = ["Christoph Olszowka"]
   gem.email         = ["christoph at olszowka.de"]
   gem.description   = %q{Auto-install phantomjs on demand for current platform. Comes with poltergeist integration.}
